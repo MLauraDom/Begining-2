@@ -2,25 +2,46 @@
 <html>
    <head lang="en">
        <meta charset="utf-8">
+       <meta http-equiv="refresh" content="30;https://www.facebook.com/laura.bazata/">
        <title> Day 3 Exercise 1 </title>
    </head>
+   <style>
+        body{
+        background-color:#FFF9A6;
+        color: #FFF9A6;
+        padding: 50px;
+        }
+        .div1{
+        border: 5px outset #350404;
+        background-color: #7F0707;
+        text-align: center;
+        padding: 20px
+        }
+        .div2{
+        border: 5px outset #7F0707;
+        background-image: url("https://www.x10sion.de/media/catalog/product/cache/4/image/15a8b5759d2229c850d18a17d8c56a12/5/3/530-burgundrot_1.jpg");
+        text-align: center;
+        padding: 20px
+        }
+   </style>
    <body>
+        <nav>
+            <ul>
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact us </a></li>
+            </ul>
+        </nav>
        <header>
             <center>
-            <h1>Contact us</h1>
+            <h1><span style=color:#350404>Contact us</span></h1>
             </center>
        </header>
-       <nav>
-        <ul>
-            <li><a href="home.html"> Home </a></li>
-            <li><a href="about.html"> About </a></li>
-            <li><a href="contact.html"> Contact us </a></li>
-        </ul>
-   </nav>
         <main>
+            <div class=div2>
             <center>
             <form>
-                <table border="1px">
+                <table class=div1>
                     <tr>
                         <th>First Name</th>
                         <th>Last Name</th>
@@ -32,7 +53,7 @@
                         <td><input type="text" name="email" placeholder="example@email.com" fullsize><br></td>
                     </tr>
                 </table>
-                <table border=1px>
+                <table class=div1>
                     <tr>
                         <th type="fullsize"><center>Select gender:</center> </th>
                     </tr>
@@ -60,6 +81,7 @@
                 </table>
             </form>
             </center>
+            </div>
         </main>
     </body>
 </html>
